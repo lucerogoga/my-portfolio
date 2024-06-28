@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Jua";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Jua/Jua-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/Poppins/Poppins-Bold.ttf);
+  }
+}
+
+@layer utilities {
+  .section {
+    @apply flex flex-col justify-center px-8 py-8 lg:h-[750px] lg:px-28 lg:py-0;
+  }
+  .list-project {
+    @apply hover:animate-shadow-pop flex cursor-pointer flex-col items-center justify-center gap-6;
+  }
+  .content {
+    @apply after:absolute after:-bottom-1 after:left-0 after:w-full after:rounded-full after:border-b-4 after:border-b-blue after:transition after:duration-500 after:ease-in-out after:content-[''];
+  }
+  .point {
+    @apply before:absolute before:-bottom-4 before:left-1/2 before:h-2 before:w-2 before:-translate-x-1/2 before:transform before:rounded-full before:bg-blue before:content-[''];
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+  scroll-behavior: smooth;
+  color: #faf9f6;
+  background-color: #313131;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
