@@ -9,7 +9,7 @@ const aboutMe = {
   freelance: "Available",
   phone: "+1 206-250-4429",
   email: "lucerogoga@icloud.com",
-  languages: "English,Espanish",
+  languages: "English, Spanish",
 };
 
 const AboutMe = () => {
