@@ -23,10 +23,10 @@ const Home = () => {
           </div>
           <img
             className="px-12 py-20 lg:hidden"
-            src="./src/assets/img/lu.ai.png"
+            src="./lu.ai.png"
             alt="image"
           />
-          <a href="src/assets/CV-Lucero-Gonzales.pdf" download>
+          <a href="./CV-Lucero-Gonzales.pdf" download>
             <Button className="lg:pt-12" text="Download CV" />
           </a>
         </div>
