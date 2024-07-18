@@ -23,7 +23,7 @@ const Home = () => {
             src="src/img/lucero.png"
             alt="image"
           />
-          <a href="./CV-Lucero-Gonzales.pdf" download>
+          <a href="src/assets/CV-Lucero-Gonzales.pdf" download>
             <Button className="lg:pt-12" text="Download CV" />
           </a>
         </div>
