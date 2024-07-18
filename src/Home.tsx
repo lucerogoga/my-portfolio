@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <img
             className="px-12 py-20 lg:hidden"
-            src="src/img/lucero.png"
+            src="https://raw.githubusercontent.com/lucerogoga/my-portfolio/main/src/img/lucero.png"
             alt="image"
           />
           <a href="src/assets/CV-Lucero-Gonzales.pdf" download>
@@ -28,7 +28,11 @@ const Home = () => {
           </a>
         </div>
 
-        <img className="hidden lg:block" src="src/img/lucero.png" alt="image" />
+        <img
+          className="hidden lg:block"
+          src="https://raw.githubusercontent.com/lucerogoga/my-portfolio/main/src/img/lucero.png"
+          alt="image"
+        />
       </section>
     </>
   );
