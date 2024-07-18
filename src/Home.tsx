@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <img
             className="px-12 py-20 lg:hidden"
-            src="src/assets/img/lu.ai.png"
+            src="./src/assets/img/lucero.png"
             alt="image"
           />
           <a href="./CV-Lucero-Gonzales.pdf" download>
@@ -30,7 +30,7 @@ const Home = () => {
 
         <img
           className="hidden lg:block"
-          src="./src/assets/img/lu.ai.png"
+          src="./src/assets/img/lucero.png"
           alt="image"
         />
       </section>
