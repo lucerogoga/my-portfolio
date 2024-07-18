@@ -24,11 +24,14 @@
 }
 
 @layer utilities {
+  .container {
+    @apply px-8 py-8 lg:px-28 lg:py-0;
+  }
   .section {
-    @apply flex flex-col justify-center px-8 py-8 lg:h-[750px] lg:px-28 lg:py-0;
+    @apply container flex flex-col justify-center lg:h-[750px];
   }
   .list-project {
-    @apply hover:animate-shadow-pop flex cursor-pointer flex-col items-center justify-center gap-6;
+    @apply flex cursor-pointer flex-col items-center justify-center gap-6 hover:animate-shadow-pop;
   }
   .content {
     @apply after:absolute after:-bottom-1 after:left-0 after:w-full after:rounded-full after:border-b-4 after:border-b-blue after:transition after:duration-500 after:ease-in-out after:content-[''];
