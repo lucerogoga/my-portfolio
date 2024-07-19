@@ -3,17 +3,17 @@ import Logo from "./components/svg/Logo";
 
 const Footer = () => {
   return (
-    <section id="footer" className="container mb-8">
-      <div className="flex justify-between border-b-2 border-white pb-8">
-        <h1 className="text-5xl">Contact</h1>
-        <h1 className="text-5xl">Follow</h1>
+    <section id="footer" className="container lg:mb-8">
+      <div className="flex justify-between border-b-2 border-white pb-4 lg:pb-8">
+        <h1 className="text-xl lg:text-5xl">Contact</h1>
+        <h1 className="text-xl lg:text-5xl">Follow</h1>
       </div>
-      <div className="flex justify-between pt-8">
-        <div>
+      <div className="flex justify-between pt-4 lg:pt-8">
+        <div className="hidden lg:block">
           <Logo />
         </div>
-        <div className="flex flex-col items-center">
-          <div className="flex flex-col items-center pb-8 text-4xl">
+        <div className="flex flex-col items-start lg:items-center">
+          <div className="flex flex-col items-start pb-8 text-lg lg:items-center lg:text-4xl">
             <p>Got a project in mind?</p>
 
             <a
@@ -23,10 +23,9 @@ const Footer = () => {
               Send me a note.
             </a>
           </div>
-          <p>© Lucero Gonzales 2024</p>
         </div>
         <div>
-          <ul>
+          <ul className="flex flex-col items-end">
             <li>
               <a
                 href="https://www.linkedin.com/in/lucero-gonzales-gandolfo/"
@@ -54,6 +53,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <p className="text-center">© Lucero Gonzales 2024</p>
     </section>
   );
 };
