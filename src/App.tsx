@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/index.css";
+import "./styles/rotate.css";
 import Home from "./Home";
 import Resume from "./Resume";
 import Projects from "./Projects";

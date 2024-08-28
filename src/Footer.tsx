@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./components/svg/Logo";
+import Spinner from "./components/svg/Spinner";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-between pt-4 lg:pt-8">
         <div className="hidden lg:block">
-          <Logo />
+          <Spinner />
         </div>
         <div className="flex flex-col items-start lg:items-center">
           <div className="flex flex-col items-start pb-8 text-lg lg:items-center lg:text-4xl">
