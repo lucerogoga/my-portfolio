@@ -9,11 +9,11 @@ export default {
       },
       colors: {
         transparent: "transparent",
-        black: "#313131",
-        white: "#FAF9F6",
+        black: "#2A2722",
+        white: "#f6eee3",
         gray: "#454545",
-        blue: "#5889D8",
-        "bg-color-main": "#313131",
+        blue: "#7790EE",
+        "ligth-blue": "#B4C8F3",
       },
       borderWidth: {
         6: "6px",

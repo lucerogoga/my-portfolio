@@ -6,14 +6,16 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 import Services from "./Services";
 import Footer from "./Footer";
+import Skills from "./Skills";
 
 const App = () => {
   return (
     <>
       <Home />
       <Services />
-      <Resume />
       <Projects />
+      <Resume />
+      <Skills />
       <Footer />
     </>
   );

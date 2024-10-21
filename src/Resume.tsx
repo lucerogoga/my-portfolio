@@ -1,7 +1,6 @@
 import React, { useState, lazy, Suspense } from "react";
 import Title from "./components/Title";
 
-const MySkills = lazy(() => import("./components/resume/MySkills"));
 const AboutMe = lazy(() => import("./components/resume/AboutMe"));
 const MyExperience = lazy(() => import("./components/resume/MyExperience"));
 const MyEducation = lazy(() => import("./components/resume/MyEducation"));
@@ -10,10 +9,6 @@ const resumeList = [
   {
     name: "Experience",
     component: <MyExperience />,
-  },
-  {
-    name: "Skills",
-    component: <MySkills />,
   },
   {
     name: "Education",
