@@ -7,8 +7,8 @@ import Logo from "./svg/Logo";
 const links = [
   { name: "Home", path: "#" },
   { name: "Services", path: "#services" },
-  { name: "Resume", path: "#resume" },
   { name: "Projects", path: "#projects" },
+  { name: "Resume", path: "#resume" },
 ];
 
 const Navigator = () => {

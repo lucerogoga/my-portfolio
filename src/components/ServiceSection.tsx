@@ -10,11 +10,14 @@ interface IService {
 const ServiceSection = (service: IService) => {
   const { id, title, description } = service;
   return (
-    <div className="relative flex flex-col gap-4 border-b-2 border-white">
-      <StarIcon className="absolute -top-4 left-16 h-8 w-8 text-blue" />
-      <p className="font-jua text-6xl">{id}</p>
-      <p className="font-jua text-4xl">{title}</p>
-      <p className="pb-8">{description}</p>
+    <div className="flex flex-col gap-4 border-b-2 border-white">
+      <div className="flex items-center justify-center gap-8">
+        <StarIcon className="h-20 w-20 text-blue" />
+        <div>
+          <p className="font-jua text-4xl">{title}</p>
+          <p className="pb-8">{description}</p>
+        </div>
+      </div>
     </div>
   );
 };

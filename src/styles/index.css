@@ -28,7 +28,7 @@
     @apply m-auto px-8 py-8 lg:px-36 lg:py-0;
   }
   .section {
-    @apply container flex flex-col justify-center lg:h-[750px];
+    @apply container flex flex-col justify-center;
   }
   .list-project {
     @apply flex cursor-pointer flex-col items-center justify-center gap-6 hover:animate-shadow-pop;

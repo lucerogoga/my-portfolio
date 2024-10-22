@@ -23,7 +23,7 @@ const resumeList = [
 const Resume = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <section id="resume" className="section gap-16">
+    <section id="resume" className="section lg:h-svh lg:gap-16">
       <div className="grid grid-cols-1 items-center gap-y-8 lg:grid-cols-3 lg:gap-12">
         <div className="flex flex-col gap-8">
           <Title text="Why hire me?" />
@@ -36,7 +36,7 @@ const Resume = () => {
               return (
                 <button
                   onClick={() => setActiveTab(idx)}
-                  className={`border-bg-transparent relative w-full rounded-full border-6 border-blue p-2 px-8 font-jua text-xl ${activeTab === idx && "bg-blue"}`}
+                  className={`border-bg-transparent relative w-full rounded-full border-6 border-blue p-2 px-8 font-poppins text-xl ${activeTab === idx && "bg-blue"}`}
                 >
                   {elm.name}
                 </button>

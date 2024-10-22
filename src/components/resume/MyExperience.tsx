@@ -19,7 +19,7 @@ const MyExperience = () => {
       <Title text="my experience" />
       <div className="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-2">
         {experienceList.map((exp, idx) => (
-          <div key={idx} className="bg-gray rounded p-4">
+          <div key={idx} className="rounded bg-gray p-4">
             <p className="font-jua text-blue">{exp.years}</p>
             <p className="font-jua">{exp.role}</p>
             <p className="flex items-center gap-2 pt-4">

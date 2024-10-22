@@ -6,16 +6,16 @@ const Home = () => {
   return (
     <>
       <Navigator />
-      <section className="section relative gap-24 lg:flex-row lg:items-center">
+      <section className="section relative gap-24 lg:h-svh lg:flex-row lg:items-center">
         <div className="flex h-full flex-col justify-between lg:h-fit">
           <div>
-            <p className="text-2xl font-bold lg:text-6xl">Hello I'm</p>
+            <p className="text-2xl font-bold lg:text-6xl">Hi I'm Lucero</p>
             <p className="pb-4 text-2xl font-bold text-blue lg:text-6xl">
-              Lucero Gonzales
+              Frontend Developer
             </p>
-            <p className="w-120 text-md font-jua">
-              A Frontend Developer with a creative flair, combining dev skills
-              with a passion for stunning designs.
+            <p className="w-120 font-poppins text-lg">
+              I design and code beautifully simple things and I love what I do.
+              Just simple like that!
             </p>
           </div>
           <img

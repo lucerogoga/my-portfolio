@@ -20,9 +20,9 @@ const MyEducation = () => {
       <Title text="my education" />
       <div className="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-2">
         {educationList.map((exp, idx) => (
-          <div key={idx} className="bg-gray rounded p-4">
-            <p className="font-jua text-blue">{exp.years}</p>
-            <p className="font-jua">{exp.role}</p>
+          <div key={idx} className="rounded bg-gray p-4">
+            <p className="font-poppins text-blue">{exp.years}</p>
+            <p className="font-poppins">{exp.role}</p>
             <p className="flex items-center gap-2 pt-4">
               <StarIcon className="h-4 w-4 text-blue" />
               <p>{exp.enterprise}</p>
