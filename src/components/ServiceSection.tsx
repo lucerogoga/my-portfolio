@@ -8,7 +8,7 @@ interface IService {
 }
 
 const ServiceSection = (service: IService) => {
-  const { id, title, description } = service;
+  const { title, description } = service;
   return (
     <div className="flex flex-col gap-4 border-b-2 border-white">
       <div className="flex items-center justify-center gap-8">
