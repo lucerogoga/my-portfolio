@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./components/Button";
 import Title from "./components/Title";
 import { projects } from "./constans/project.constans";
 
@@ -8,7 +9,7 @@ const Projects = () => {
       <Title color="text-white" text="My Projects"></Title>
       <ul className="flex flex-col gap-6 lg:justify-center">
         {projects.map((project) => (
-          <li className="rounded-2xl border-2 border-blue p-8">
+          <li className="flex flex-col gap-4 rounded-2xl border-2 border-blue p-8">
             <div className="flex flex-col lg:flex-row lg:gap-8">
               <div className="flex flex-col lg:w-1/2">
                 <p>{project.type}</p>
@@ -38,6 +39,14 @@ const Projects = () => {
                 src={project.imgMovile}
                 alt={project.title}
               ></img>
+            </div>
+            <div className="flex gap-4">
+              <a href={project.github} download>
+                <Button className="lg:pt-12" text="Github" />
+              </a>
+              <a href={project.demo} download>
+                <Button className="lg:pt-12" text="Demo" />
+              </a>
             </div>
           </li>
         ))}
