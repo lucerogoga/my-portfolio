@@ -20,7 +20,7 @@ const Home = () => {
               Just simple like that!
             </p>
           
-          <a href="src/assets/CV-Lucero-Gonzales.pdf" download>
+          <a href="/CV-Lucero-Gonzales.pdf" download>
             <Button className="lg:pt-12" text="Download CV" />
           </a>
         </div>
