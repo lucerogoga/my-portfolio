@@ -4,10 +4,10 @@ import Title from "../Title";
 const aboutMe = {
   name: "Lucero Gonzales",
   experience: "+3 years",
-  based: "Seattle",
+  based: "Perú",
   nationality: "Peruvian",
   freelance: "Available",
-  phone: "+1 206-250-4429",
+  phone: "+51 901868498",
   email: "lucerogoga@icloud.com",
   languages: "English, Spanish",
 };

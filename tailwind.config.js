@@ -4,15 +4,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        jua: "jua",
         poppins: "poppins",
       },
       colors: {
         transparent: "transparent",
-        black: "#2A2722",
+        black: "#0a0809",
         white: "#f6eee3",
         gray: "#454545",
-        blue: "#7790EE",
+        blue: "#fd629c",
         "ligth-blue": "#B4C8F3",
       },
       borderWidth: {

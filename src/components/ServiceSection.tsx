@@ -14,7 +14,7 @@ const ServiceSection = (service: IService) => {
       <div className="flex items-center justify-center gap-8">
         <StarIcon className="h-20 w-20 text-blue" />
         <div>
-          <p className="font-jua text-4xl">{title}</p>
+          <p className="text-4xl">{title}</p>
           <p className="pb-8">{description}</p>
         </div>
       </div>

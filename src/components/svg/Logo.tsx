@@ -4,7 +4,7 @@ import StarIcon from "./StarIcon";
 const Logo = () => {
   return (
     <div className="flex items-center gap-2">
-      <a href="/" className="font-jua text-2xl text-white hover:text-blue">
+      <a href="/" className="text-2xl text-white hover:text-blue">
         Lucerogoga
       </a>
       <StarIcon className="h-6 w-6 text-blue" />

@@ -10,7 +10,7 @@ interface IText {
 const Title = ({ text, color, startColor = "text-blue" }: IText) => {
   return (
     <div className="relative w-fit self-center">
-      <h1 className={`font-jua text-xl uppercase lg:text-4xl ${color}`}>
+      <h1 className={`text-xl uppercase lg:text-4xl ${color}`}>
         {text}
       </h1>
       <StarIcon

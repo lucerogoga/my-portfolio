@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "./components/Button";
 import Title from "./components/Title";
-import { projects } from "./constans/project.constans";
+import ProjectsCarrousel from "./components/ProjectsCarrousel";
 
 const Projects = () => {
   return (
     <section id="projects" className="section gap-4">
       <Title color="text-white" text="My Projects"></Title>
-      <ul className="flex flex-col gap-6 lg:justify-center">
+      <ProjectsCarrousel/>
+      {/* <ul className="flex flex-col gap-6 lg:justify-center">
         {projects.map((project) => (
           <li className="flex flex-col gap-4 rounded-2xl border-2 border-blue p-8">
             <div className="flex flex-col lg:flex-row lg:gap-8">
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </section>
   );
 };

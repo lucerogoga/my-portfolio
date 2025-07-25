@@ -4,12 +4,6 @@
 
 @layer base {
   @font-face {
-    font-family: "Jua";
-    font-style: normal;
-    font-weight: 400;
-    src: url(./fonts/Jua/Jua-Regular.ttf);
-  }
-  @font-face {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
@@ -51,7 +45,7 @@ body {
   font-family: "poppins";
   scroll-behavior: smooth;
   color: #f6eee3;
-  background-color: #2a2722;
+  background-color: #0a0809;
 }
 
 a {
